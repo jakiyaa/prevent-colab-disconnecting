@@ -19,7 +19,7 @@ prevent google colab disconnecting**
 
 **5.paste this code and hit enter**
 
-code= function ConnectButton() {
+function ConnectButton() {
 
  console.log("Working");
  
