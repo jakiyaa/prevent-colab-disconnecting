@@ -23,7 +23,8 @@ prevent google colab disconnecting**
 
 **5.paste this code and hit enter**
 
-``` function ConnectButton() {
+```diff
+function ConnectButton() {
   console.log("Working");
 document.queryselector("#connect").click()
  }
@@ -35,9 +36,9 @@ document.queryselector("#connect").click()
 
 
 **7.copy this code and paste**
-
+```diff
 setInterval(ConnectButton,60000);
-
+```
 
 ![Screenshot 2021-04-08 080746](https://user-images.githubusercontent.com/67457538/113960216-c1674980-9841-11eb-8ef7-2d9b0166c47b.png)
 
