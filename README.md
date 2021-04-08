@@ -2,7 +2,9 @@
 **# prevent-colab-disconnecting
 prevent google colab disconnecting**
 **
+
 1.Open cloab**
+
 
 **2.inspect (CTr+shift+l)/(ctr+shift+j)**
 
@@ -21,13 +23,10 @@ prevent google colab disconnecting**
 
 **5.paste this code and hit enter**
 
-``` - function ConnectButton() {
-
- - console.log("Working");
- 
- - document.queryselector("#connect").click()
- 
-- }
+``` function ConnectButton() {
+  console.log("Working");
+document.queryselector("#connect").click()
+ }
 ```
 
 **6.then is show "undifined'**
